@@ -9,15 +9,11 @@
 <body>
 <div class="page-wrap">
     <header class="site-header">
-        <h1>PHP Class - Austin Ruchti</h1>
+        <?php include "includes/header.php" ?>
     </header>
     <div class="flex-box">
     <nav class="main-nav">
-        <ul>
-            <li class="menu-item"><a href="/">Home</a></li>
-            <li class="menu-item"><a href="#">Loops</a></li>
-            <li class="menu-item"><a href="#">Strings</a></li>
-        </ul>
+       <?php include "includes/menu.php" ?>
     </nav>
     <section class="main-content">
         <div class="img">/*insert image and tag*/</div>
@@ -35,7 +31,7 @@
     </div><!--end flex box here-->
 
     <footer>
-        <div>Learn PHP<sup>&copy;</sup> 2018</div>
+        <?php include "includes/footer.php" ?>
     </footer>
 </div><!--/page wrap-->
 </body>
